@@ -1,0 +1,15 @@
+header{
+    display: flex;
+    justify-content: space-between;
+}
+header>p{
+    font-size: large;
+    font-weight: 600;
+}
+header >p >i{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.time{
+    margin-left: -35px;
+}
