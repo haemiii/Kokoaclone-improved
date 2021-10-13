@@ -4,7 +4,7 @@ const timeShow = () =>{
     const date = new Date();
 
     const hours = String(date.getHours());
-    const minutes = String(date.getMinutes());
+    const minutes = String(date.getMinutes()).padStart(2, "0");
  
     time.innerText = `${hours}:${minutes}`;
 }

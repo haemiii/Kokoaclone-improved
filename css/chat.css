@@ -1,0 +1,43 @@
+.channel{
+    margin-top: 10px;
+}
+.channel-img{
+    width: 13%;
+    height: 10vh;
+    border-radius: 40%;
+}
+.channel-icon>:nth-child(2){
+    margin-left: -35%;
+    
+}
+.channel-icon>:nth-child(2)>p{
+    margin:0px -20px;
+}
+.channel-icon>:nth-child(2)>p:first-child{
+    font-size: 30px;
+    font-weight: 600;
+}
+.channel-icon>:nth-child(2)>p:last-child,
+.channel-icon>:nth-child(3)>p:first-child{
+    opacity: 0.5;
+}
+
+.channel-icon>:nth-child(3){
+    position: relative;
+}
+.channel-icon>:nth-child(3)>p:first-child{
+    margin-top: -5px;
+}
+.chat-circle{
+    color: #FF6229 ;
+    position: absolute;
+    top: 3vh;
+    left: 50%;
+}
+.circle-1{
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    top: 0.3vh;
+    left: 64%;
+}

@@ -1,0 +1,40 @@
+body{
+    width: 100%;
+    height: 0vh;
+    position: relative;
+}
+
+.bottom_menu-bar{
+    width: 100%;
+    height: 10%;
+    background-color: #F9F9FA;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    border-top: solid 0.5px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    bottom: 0;
+}
+.fa-comment, .fa-ellipsis-h{
+    position: relative;
+}
+.first{
+    position: absolute;
+    left: 38%;
+    top: 2.5vh;
+    color: #FF6229;
+}
+.fa-circle-1{
+    position: absolute;
+    left: 39%;
+    bottom: 2.5vh;
+    color: white;
+    font-weight: 600;
+}
+.second{
+    position: absolute;
+    color: #FF6229;
+    right: 8%;
+    bottom: 6vh;
+}
