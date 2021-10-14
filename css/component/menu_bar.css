@@ -1,0 +1,13 @@
+.find_menu-bar{
+    width: 80%;
+    height: 15vh;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-between;
+
+}
+.find_menu-bar>article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
